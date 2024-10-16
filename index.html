@@ -1,0 +1,20 @@
+<html>
+    <head>
+    </head>
+
+    <body>
+        <h1>Async and await</h1>
+
+        <script>
+            async function add(a,b) {
+                let responce= await a+b
+                display(responce)
+            }
+            function display(c){
+                document.write(c)
+             }
+
+             add(45,5)
+        </script>
+    </body>
+</html>
